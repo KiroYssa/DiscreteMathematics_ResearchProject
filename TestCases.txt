@@ -1,0 +1,99 @@
+4
+1 2 3 4
+R
+3
+1 1
+1 2
+2 1
+S
+4
+1 1
+2 2
+3 3
+4 4
+
+--------------------------------------------------
+#Testcase 1
+2
+1 2
+R
+2
+1 1
+2 1
+S
+2
+2 1
+2 2
+
+R(complement) = FALSE
+S(inverse) = TRUE
+R (intersection with) S = TRUE
+
+--------------------------------------------------
+#Testcase 2
+5
+1 2 3 4 5
+R
+4
+2 1
+2 3
+3 3
+4 4
+S
+3
+1 1
+2 2
+4 1
+
+R(complement) = FALSE --> Check the work of making up the Array_Original
+S(inverse) = True
+R (intersection with) S = False * True --> Add a condition if there is no any intersection ordered pair(s)
+
+--------------------------------------------------
+#Testcase 3
+3
+10 11 12
+R
+4
+10 12
+11 10
+11 11
+12 12
+S
+5
+10 10
+10 11
+10 12
+12 11
+12 12
+
+R(complement) = FALSE --> There are multiple ordered pair(s) in Array_Original which causes an error in Complement Function
+S(inverse) = TRUE
+R (intersection with) S = TRUE
+
+--------------------------------------------------
+#Testcase 4
+4
+-2 -1 2 3
+R
+7
+-2 3
+-1 -1
+2 -2
+2 -1
+2 2
+3 2
+3 3
+S
+4
+-2 -2
+-1 -1
+2 2
+3 3
+
+R(complement) = 
+S(inverse) = 
+R (intersection with) S = 
+
+
+
